@@ -84,11 +84,10 @@ function getMostPopularAuthors(books, authors) {
 }
 
 module.exports = {
-  findAuthorById,
-  findBookById,
-  partitionBooksByBorrowedStatus,
-  getBorrowersForBook,
   getTotalBooksCount,
   getTotalAccountsCount,
   getBooksBorrowedCount,
+  getMostCommonGenres,
+  getMostPopularBooks,
+  getMostPopularAuthors,
 };
